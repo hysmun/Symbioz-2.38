@@ -674,11 +674,6 @@ namespace Symbioz.World.Handlers.RolePlay.Commands
                 target.Character.Inventory.UnequipAll();
             }
         }
-        [ChatCommand("start")]
-        public static void StartCommand(string value, WorldClient client)
-        {
-            client.Character.Teleport(154010883, 383);
-        }
         [ChatCommand("nmove", ServerRoleEnum.Fondator)]
         public static void MoveNpcCommand(string value, WorldClient client)
         {
@@ -853,10 +848,58 @@ namespace Symbioz.World.Handlers.RolePlay.Commands
         {
             LookCommand("{1003}", client);
         }
+        
+        //Scroll
+
+        [ChatCommand("scroll")]
+        public static void ScrollCommand(string value, WorldClient client)
+        {
+            int kamasValue = 100000;
+            bool removeKamas = client.Character.RemoveKamas(kamasValue);
+            
+            if (removeKamas == true)
+            {
+                client.Character.Record.Stats.Agility.Additional = 100;
+                client.Character.Record.Stats.Chance.Additional = 100;
+                client.Character.Record.Stats.Intelligence.Additional = 100;
+                client.Character.Record.Stats.Strength.Additional = 100;
+                client.Character.Record.Stats.Wisdom.Additional = 100;
+                client.Character.Record.Stats.Vitality.Additional = 100;
+                client.Character.RefreshStats();
+                client.Character.Reply("All status have been set to 100 for " + kamasValue + " kamas", true);
+            }
+            else if (removeKamas == false)
+            {
+                client.Character.ReplyError("You need " + kamasValue + " kamas to scroll");
+            } 
+        }
+
+        //Teleports
+
+        [ChatCommand("astrub")]
+        public static void AstrubCommand(string value, WorldClient client)
+        {
+            client.Character.Teleport(84674563, 370);
+        }
+        [ChatCommand("brak")]
+        public static void BrakCommand(string value, WorldClient client)
+        {
+            client.Character.Teleport(144419, 258);
+        }
+        [ChatCommand("bonta")]
+        public static void BontaCommand(string value, WorldClient client)
+        {
+            client.Character.Teleport(147768, 300);
+        }
         [ChatCommand("event")]
         public static void Event(string value, WorldClient client)
         {
             client.Character.Teleport(148636161, 398);
+        }
+        [ChatCommand("start")]
+        public static void StartCommand(string value, WorldClient client)
+        {
+            client.Character.Teleport(154010883, 383);
         }
 
 
