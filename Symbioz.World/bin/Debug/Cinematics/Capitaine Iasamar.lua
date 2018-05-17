@@ -4,7 +4,8 @@
  -- Script De cinématique.
 ---------
 author = "Skinz"
-mapId = 84674562
+modified = "Joaoggs"
+mapId = 144419
 npcId = 125
 doneObjectives = {}
 notDoneObjectives = {} 
