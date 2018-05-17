@@ -1232,7 +1232,7 @@ namespace Symbioz.World.Models.Entities
         }
         public void ReplyError(object value)
         {
-            Reply(value, Color.DarkRed, false, false);
+            Reply(value, Color.DarkRed, true, false);
         }
         public void Notification(string message)
         {
