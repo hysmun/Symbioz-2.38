@@ -593,8 +593,8 @@ namespace Symbioz.World.Handlers.RolePlay.Commands
                 }
             }
         }
-        [ChatCommand("test", ServerRoleEnum.Fondator)]
-        public static void TestCommand(string value, WorldClient client)
+        [ChatCommand("dev2", ServerRoleEnum.Fondator)]
+        public static void Dev2Command(string value, WorldClient client)
         {
             client.SendRaw(RawDataManager.GetRawData("gvgpanel"));
             client.Character.Reply("Done");
@@ -638,6 +638,7 @@ namespace Symbioz.World.Handlers.RolePlay.Commands
         [ChatCommand("look", ServerRoleEnum.Moderator)]
         public static void LookCommand(string value, WorldClient client)
         {
+            value = "{" + value + "}";
             value = value.Replace("&#123;", "{").Replace("&#125;", "}");
             client.Character.Look = ContextActorLook.Parse(value);
             client.Character.RefreshActorOnMap();
@@ -846,7 +847,7 @@ namespace Symbioz.World.Handlers.RolePlay.Commands
         [ChatCommand("lion", ServerRoleEnum.Animator)]
         public static void Lion(string value, WorldClient client)
         {
-            LookCommand("{1003}", client);
+            LookCommand("1003", client);
         }
         
         //Scroll
@@ -898,6 +899,11 @@ namespace Symbioz.World.Handlers.RolePlay.Commands
         }
         [ChatCommand("start")]
         public static void StartCommand(string value, WorldClient client)
+        {
+            client.Character.Teleport(144419, 258);
+        }
+        [ChatCommand("incarnam")]
+        public static void IncarnamCommand(string value, WorldClient client)
         {
             client.Character.Teleport(154010883, 383);
         }
