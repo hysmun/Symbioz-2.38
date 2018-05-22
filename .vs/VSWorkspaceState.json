@@ -1,6 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Symbioz.World",
+    "\\Symbioz.World\\bin",
+    "\\Symbioz.World\\bin\\Debug",
+    "\\Symbioz.World\\bin\\Debug\\Cinematics",
+    "\\Symbioz.World\\Models",
+    "\\Symbioz.World\\Models\\Entities",
+    "\\Symbioz.World\\Providers",
+    "\\Symbioz.World\\Providers\\Maps"
   ],
+  "SelectedNode": "\\Symbioz.World\\bin\\Debug\\Cinematics\\Klasmor le fossoyeur - Kardorim.lua",
   "PreviewInSolutionExplorer": false
 }

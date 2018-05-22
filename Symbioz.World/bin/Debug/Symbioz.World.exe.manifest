@@ -14,16 +14,16 @@
       </applicationRequestMinimum>
       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
         <!--
-          Options du manifeste de contrôle de compte d’utilisateur (UAC)
-          Si vous voulez changer le niveau de contrôle de compte d’utilisateur Windows, remplacez le 
-          nœud requestedExecutionLevel par l’un des nœuds suivants.
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
 
         <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
         <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
         <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
 
-         Si vous voulez utiliser la virtualisation de fichiers système et du Registre pour la 
-         compatibilité descendante, supprimez le nœud requestedExecutionLevel.
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
     -->
         <requestedExecutionLevel level="asInvoker" uiAccess="false" />
       </requestedPrivileges>
@@ -126,18 +126,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="504320">
-      <assemblyIdentity name="Newtonsoft.Json" version="6.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>eL7dn86HenGo2P+agTZi2CSDYeRnBcTvevxh1ED/Lus=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NLua.dll" size="93184">
       <assemblyIdentity name="NLua" version="1.3.2.0" publicKeyToken="8DF2AB518030EA95" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -157,19 +145,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>F9TgAIBoJNs0lnWK3f1tETx8j4KFE0x43J9XdPRDJXY=</dsig:DigestValue>
+        <dsig:DigestValue>tfEILvk9hh7yySvC/zcsWQi73Ahh9RFOwKhAWBc2Y9E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Symbioz.Core.dll" size="65024">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Symbioz.Core.dll" size="65536">
       <assemblyIdentity name="Symbioz.Core" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>mBRGjD93ej/seSXuaFvWwBlFbbtlL35gnHydormwuNA=</dsig:DigestValue>
+        <dsig:DigestValue>VSk4X/iTvkog4tr1b3+/WqVhd/vp/Hk8kUBKOJHC14M=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -181,7 +169,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>v3mhLzLRU5jIvONIBTyrrOZMndvsbzsJOc2P6GRzMo8=</dsig:DigestValue>
+        <dsig:DigestValue>mfq69RPsY2060JrDIobnQoW7KIpi2M/4w5PMe5/ZRkU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -193,7 +181,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xG3gkOJrwxmCMX+zuz/4b2QaxS5eZ2fUu+mzbydDafk=</dsig:DigestValue>
+        <dsig:DigestValue>sXG0AksvOM+pO6ENN570ApeQ4aLWdQ5uFy6Wkh5re2g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -205,19 +193,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>O2QN80ZK4G+Ly8e2znzOXUMCoJvGOxgHQH/YzGCFz1w=</dsig:DigestValue>
+        <dsig:DigestValue>0lRwocW2xNOBmDCTC9Dq3h+iLisDxzEWTU+K9uujbHQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Symbioz.World.exe" size="796160">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Symbioz.World.exe" size="798208">
       <assemblyIdentity name="Symbioz.World" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lfiNAreKdfZjvDYoHSXt9GS0l3FBUEcUyht3vhfq8/Q=</dsig:DigestValue>
+        <dsig:DigestValue>y5oEBDtmIcDyiQkPNY1PerERQ5MPpnHaLGOikVBlszk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -241,7 +229,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>9YkTn7j+Bs/t3sxl8RDXkqGK+4rwQGLp3HhZE0hME9s=</dsig:DigestValue>
+        <dsig:DigestValue>O6yNhXxzgy3vYMVVtFNJyzjWh56RgppvRchZcCAix+8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

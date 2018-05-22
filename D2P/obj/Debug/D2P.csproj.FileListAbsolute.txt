@@ -17,3 +17,24 @@ C:\Users\Skinz\Desktop\Symbioz 2.38\D2P\obj\Debug\D2P.Properties.Resources.resou
 C:\Users\Skinz\Desktop\Symbioz 2.38\D2P\obj\Debug\D2P.csproj.GenerateResource.Cache
 C:\Users\Skinz\Desktop\Symbioz 2.38\D2P\obj\Debug\D2P.exe
 C:\Users\Skinz\Desktop\Symbioz 2.38\D2P\obj\Debug\D2P.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\bin\Debug\D2P.exe.config
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\bin\Debug\D2P.exe
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\bin\Debug\D2P.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\bin\Debug\Symbioz.Tools.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\bin\Debug\zlib.net.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\bin\Debug\SSync.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\bin\Debug\Symbioz.Core.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\bin\Debug\YAXLib.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\bin\Debug\Symbioz.Tools.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\bin\Debug\SSync.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\bin\Debug\Symbioz.Core.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\bin\Debug\YAXLib.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\bin\Debug\YAXLib.xml
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\obj\Debug\D2P.csprojAssemblyReference.cache
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\obj\Debug\D2P.Form1.resources
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\obj\Debug\D2P.Properties.Resources.resources
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\obj\Debug\D2P.csproj.GenerateResource.cache
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\obj\Debug\D2P.csproj.CoreCompileInputs.cache
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\obj\Debug\D2P.csproj.CopyComplete
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\obj\Debug\D2P.exe
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\obj\Debug\D2P.pdb

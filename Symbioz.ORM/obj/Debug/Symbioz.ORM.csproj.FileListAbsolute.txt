@@ -101,3 +101,15 @@ C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ORM\obj\Debug\Symbioz.ORM.csprojReso
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ORM\obj\Debug\Symbioz.ORM.dll
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ORM\obj\Debug\Symbioz.ORM.pdb
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ORM\obj\Debug\Symbioz.ORM.csproj.CoreCompileInputs.cache
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.ORM\bin\Debug\Symbioz.ORM.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.ORM\bin\Debug\Symbioz.ORM.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.ORM\bin\Debug\Symbioz.Core.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.ORM\bin\Debug\YAXLib.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.ORM\bin\Debug\Symbioz.Core.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.ORM\bin\Debug\YAXLib.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.ORM\bin\Debug\YAXLib.xml
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.ORM\obj\Debug\Symbioz.ORM.csprojAssemblyReference.cache
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.ORM\obj\Debug\Symbioz.ORM.csproj.CoreCompileInputs.cache
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.ORM\obj\Debug\Symbioz.ORM.csproj.CopyComplete
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.ORM\obj\Debug\Symbioz.ORM.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.ORM\obj\Debug\Symbioz.ORM.pdb

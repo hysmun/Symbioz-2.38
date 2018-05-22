@@ -19,3 +19,25 @@ C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.D2I\obj\Debug\Symbioz.D2I.pdb
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.D2I\obj\Debug\Symbioz.D2I.Edit.resources
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.D2I\obj\Debug\Symbioz.D2I.View.resources
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.D2I\obj\Debug\Symbioz.D2I.csproj.CoreCompileInputs.cache
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\bin\Debug\Symbioz.D2I.exe.config
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\bin\Debug\Symbioz.D2I.exe
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\bin\Debug\Symbioz.D2I.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\bin\Debug\SSync.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\bin\Debug\Symbioz.Core.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\bin\Debug\Symbioz.Tools.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\bin\Debug\YAXLib.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\bin\Debug\zlib.net.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\bin\Debug\SSync.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\bin\Debug\Symbioz.Core.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\bin\Debug\Symbioz.Tools.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\bin\Debug\YAXLib.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\bin\Debug\YAXLib.xml
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\obj\Debug\Symbioz.D2I.csprojAssemblyReference.cache
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\obj\Debug\Symbioz.D2I.Edit.resources
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\obj\Debug\Symbioz.D2I.View.resources
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\obj\Debug\Symbioz.D2I.Properties.Resources.resources
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\obj\Debug\Symbioz.D2I.csproj.GenerateResource.cache
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\obj\Debug\Symbioz.D2I.csproj.CoreCompileInputs.cache
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\obj\Debug\Symbioz.D2I.csproj.CopyComplete
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\obj\Debug\Symbioz.D2I.exe
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\obj\Debug\Symbioz.D2I.pdb
