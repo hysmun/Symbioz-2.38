@@ -726,8 +726,6 @@ namespace Symbioz.World.Handlers.RolePlay.Commands
                 return;
             }
 
-           
-
         }
         [ChatCommand("addhonor", ServerRoleEnum.Moderator)]
         public static void AddHonorCommand(string value, WorldClient client)
@@ -908,6 +906,11 @@ namespace Symbioz.World.Handlers.RolePlay.Commands
             client.Character.Teleport(154010883, 383);
         }
 
+        [ChatCommand("heroic", ServerRoleEnum.Moderator)]
+        public static void HeroicCommand(string value, WorldClient client)
+        {
+            client.Character.DeathCharacter();
+        }
 
     }
 }

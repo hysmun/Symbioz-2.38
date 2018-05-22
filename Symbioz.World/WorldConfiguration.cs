@@ -141,7 +141,11 @@ namespace Symbioz.World
             get;
             set;
         }
-
+        public bool Heroic
+        {
+            get;
+            set;
+        }
 
         public override void Default()
         {
@@ -174,6 +178,7 @@ namespace Symbioz.World
             this.WelcomeMessage = "Welcome on server";
             this.ApLimit = 12;
             this.MpLimit = 6;
+            this.Heroic = true;
         }
 
         #endregion

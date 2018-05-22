@@ -145,7 +145,8 @@ namespace Symbioz.World.Models.Fights.Fighters
         }
 
         public void Leave(bool teleportToSpawn)
-        {
+        {            
+
             if (!Fight.Started)
             {
                 Team.RemoveFighter(this);
@@ -203,6 +204,8 @@ namespace Symbioz.World.Models.Fights.Fighters
                     this.Left = true;
                 }
             }
+
+            Character.DeathCharacter();
         }
         public void ToggleSyncReady(bool isReady)
         {
