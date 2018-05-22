@@ -81,3 +81,17 @@ C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Tools\obj\Debug\Symbioz.Tools.csproj
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Tools\obj\Debug\Symbioz.Tools.dll
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Tools\obj\Debug\Symbioz.Tools.pdb
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Tools\obj\Debug\Symbioz.Tools.csproj.CoreCompileInputs.cache
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Tools\bin\Debug\Symbioz.Tools.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Tools\bin\Debug\Symbioz.Tools.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Tools\bin\Debug\SSync.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Tools\bin\Debug\Symbioz.Core.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Tools\bin\Debug\YAXLib.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Tools\bin\Debug\SSync.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Tools\bin\Debug\Symbioz.Core.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Tools\bin\Debug\YAXLib.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Tools\bin\Debug\YAXLib.xml
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Tools\obj\Debug\Symbioz.Tools.csprojAssemblyReference.cache
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Tools\obj\Debug\Symbioz.Tools.csproj.CoreCompileInputs.cache
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Tools\obj\Debug\Symbioz.Tools.csproj.CopyComplete
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Tools\obj\Debug\Symbioz.Tools.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Tools\obj\Debug\Symbioz.Tools.pdb

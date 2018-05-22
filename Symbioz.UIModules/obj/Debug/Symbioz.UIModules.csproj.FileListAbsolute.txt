@@ -24,3 +24,31 @@ C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.UIModules\bin\Debug\SSync.pdb
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.UIModules\bin\Debug\Symbioz.Core.pdb
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.UIModules\bin\Debug\YAXLib.pdb
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.UIModules\bin\Debug\YAXLib.xml
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\bin\Debug\Symbioz.UIModules.exe.config
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\bin\Debug\Symbioz.UIModules.exe
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\bin\Debug\Symbioz.UIModules.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\bin\Debug\Symbioz.Tools.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\bin\Debug\zlib.net.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\bin\Debug\SSync.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\bin\Debug\Symbioz.Core.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\bin\Debug\YAXLib.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\bin\Debug\Symbioz.Tools.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\bin\Debug\SSync.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\bin\Debug\Symbioz.Core.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\bin\Debug\YAXLib.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\bin\Debug\YAXLib.xml
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\obj\Debug\Symbioz.UIModules.csprojAssemblyReference.cache
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\obj\Debug\Editor.g.cs
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\obj\Debug\MainWindow.g.cs
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\obj\Debug\App.g.cs
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\obj\Debug\Symbioz.UIModules_MarkupCompile.cache
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\obj\Debug\Symbioz.UIModules_MarkupCompile.lref
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\obj\Debug\Editor.baml
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\obj\Debug\MainWindow.baml
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\obj\Debug\Symbioz.UIModules.g.resources
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\obj\Debug\Symbioz.UIModules.Properties.Resources.resources
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\obj\Debug\Symbioz.UIModules.csproj.GenerateResource.cache
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\obj\Debug\Symbioz.UIModules.csproj.CoreCompileInputs.cache
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\obj\Debug\Symbioz.UIModules.csproj.CopyComplete
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\obj\Debug\Symbioz.UIModules.exe
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\obj\Debug\Symbioz.UIModules.pdb

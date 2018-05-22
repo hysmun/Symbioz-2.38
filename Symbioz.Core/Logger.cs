@@ -81,8 +81,8 @@ namespace Symbioz.Core
             Color4(@"                                |_| |___|___|", false);
             NewLine();
             Color4(@"Dofus 2.38.0.113902.1", false);
-            Color3(@"[Build Base Release --/--/---]", false);
-            Color4(@"[Build Red Release --/--/---]", false);
+            Color3(@"[Build Base Release 02/27/2018]", false);
+            Color4(@"[Build Red Release 05/22/2018]", false);
             Color4(@"===============================================", false);          
         }
         public void OnStartup()
