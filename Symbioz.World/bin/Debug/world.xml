@@ -28,4 +28,5 @@
   <DatabaseUser>root</DatabaseUser>
   <DatabasePassword></DatabasePassword>
   <DatabaseName>symbioz_world</DatabaseName>
+  <Heroic>True</Heroic>
 </WorldConfiguration>
