@@ -24,7 +24,5 @@ function Execute()
 end
 
 function CriteriaWrong()
-
-env:sayNpc("Rapportez moi 1x <b>[Guildalogemme]</b> et vous rendrez un service.");
-
+	env:sayNpc("Rapportez moi 1x <b>[Guildalogemme]</b> et vous rendrez un service.");
 end

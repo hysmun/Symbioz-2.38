@@ -4,8 +4,9 @@
  -- Script De cinématique.
 ---------
 author = "Skinz"
-mapId = 84674563
-npcId = 190
+modified = "Joaoggs"
+mapId = 144419
+npcId = 189
 doneObjectives = {}
 notDoneObjectives = {} 
 criteria = ""
