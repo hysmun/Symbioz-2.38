@@ -82,3 +82,19 @@ C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\bin\Debug\Microsoft.Owin.dl
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\bin\Debug\Owin.dll
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\bin\Debug\Microsoft.Owin.xml
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.csproj.CoreCompileInputs.cache
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\bin\Debug\Symbioz.Protocol.dll
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\bin\Debug\Symbioz.Protocol.pdb
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\bin\Debug\Microsoft.Owin.dll
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\bin\Debug\Owin.dll
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\bin\Debug\SSync.dll
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\bin\Debug\Symbioz.Core.dll
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\bin\Debug\YAXLib.dll
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\bin\Debug\SSync.pdb
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\bin\Debug\Microsoft.Owin.xml
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\bin\Debug\Symbioz.Core.pdb
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\bin\Debug\YAXLib.pdb
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\bin\Debug\YAXLib.xml
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.csprojAssemblyReference.cache
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.csproj.CopyComplete
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.dll
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.pdb
