@@ -1,7 +1,0 @@
-C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.DofusConfig\bin\Debug\Symbioz.DofusConfig.dll
-C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.DofusConfig\bin\Debug\Symbioz.DofusConfig.pdb
-C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.DofusConfig\obj\Debug\Symbioz.DofusConfig.dll
-C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.DofusConfig\obj\Debug\Symbioz.DofusConfig.pdb
-C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.DofusConfig\obj\Debug\Symbioz.DofusConfig.csprojResolveAssemblyReference.cache
-C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.DofusConfig\obj\Debug\Symbioz.DofusConfig.dll
-C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.DofusConfig\obj\Debug\Symbioz.DofusConfig.pdb
