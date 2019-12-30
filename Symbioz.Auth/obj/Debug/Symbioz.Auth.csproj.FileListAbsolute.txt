@@ -138,3 +138,4 @@ C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Auth\obj\Debug\Symb
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Auth\obj\Debug\Symbioz.Auth.csproj.CopyComplete
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Auth\obj\Debug\Symbioz.Auth.exe
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Auth\obj\Debug\Symbioz.Auth.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Auth\obj\Debug\Symbioz.Auth.pdb

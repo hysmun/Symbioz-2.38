@@ -51,3 +51,4 @@ C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.UIModules\obj\Debug
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.UIModules\obj\Debug\Symbioz.UIModules.csproj.CopyComplete
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.UIModules\obj\Debug\Symbioz.UIModules.exe
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.UIModules\obj\Debug\Symbioz.UIModules.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.UIModules\obj\Debug\Symbioz.UIModules.pdb

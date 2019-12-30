@@ -40,3 +40,4 @@ C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.D2I\obj\Debug\Symbi
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.D2I\obj\Debug\Symbioz.D2I.csproj.CopyComplete
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.D2I\obj\Debug\Symbioz.D2I.exe
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.D2I\obj\Debug\Symbioz.D2I.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.D2I\obj\Debug\Symbioz.D2I.pdb

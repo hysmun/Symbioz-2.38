@@ -16,3 +16,6 @@ C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Bin\YAXLib.dll
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Bin\YAXLib.pdb
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\YAXLib\obj\Debug\YAXLib.dll
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\YAXLib\obj\Debug\YAXLib.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\YAXLib\obj\Debug\YAXLib.dll
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\YAXLib\obj\Debug\YAXLib.pdb
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\YAXLib\obj\Debug\YAXLib.csprojAssemblyReference.cache

@@ -593,8 +593,8 @@ namespace Symbioz.World.Handlers.RolePlay.Commands
                 }
             }
         }
-        [ChatCommand("test", ServerRoleEnum.Fondator)]
-        public static void TestCommand(string value, WorldClient client)
+        [ChatCommand("dev2", ServerRoleEnum.Fondator)]
+        public static void Dev2Command(string value, WorldClient client)
         {
             client.SendRaw(RawDataManager.GetRawData("gvgpanel"));
             client.Character.Reply("Done");
@@ -638,6 +638,7 @@ namespace Symbioz.World.Handlers.RolePlay.Commands
         [ChatCommand("look", ServerRoleEnum.Moderator)]
         public static void LookCommand(string value, WorldClient client)
         {
+            value = "{" + value + "}";
             value = value.Replace("&#123;", "{").Replace("&#125;", "}");
             client.Character.Look = ContextActorLook.Parse(value);
             client.Character.RefreshActorOnMap();
@@ -673,11 +674,6 @@ namespace Symbioz.World.Handlers.RolePlay.Commands
             {
                 target.Character.Inventory.UnequipAll();
             }
-        }
-        [ChatCommand("start")]
-        public static void StartCommand(string value, WorldClient client)
-        {
-            client.Character.Teleport(154010883, 383);
         }
         [ChatCommand("nmove", ServerRoleEnum.Fondator)]
         public static void MoveNpcCommand(string value, WorldClient client)
@@ -729,8 +725,6 @@ namespace Symbioz.World.Handlers.RolePlay.Commands
                 client.Character.Reply("Done!");
                 return;
             }
-
-           
 
         }
         [ChatCommand("addhonor", ServerRoleEnum.Moderator)]
@@ -851,14 +845,72 @@ namespace Symbioz.World.Handlers.RolePlay.Commands
         [ChatCommand("lion", ServerRoleEnum.Animator)]
         public static void Lion(string value, WorldClient client)
         {
-            LookCommand("{1003}", client);
+            LookCommand("1003", client);
+        }
+        
+        //Scroll
+
+        [ChatCommand("scroll")]
+        public static void ScrollCommand(string value, WorldClient client)
+        {
+            int kamasValue = 100000;
+            bool removeKamas = client.Character.RemoveKamas(kamasValue);
+            
+            if (removeKamas == true)
+            {
+                client.Character.Record.Stats.Agility.Additional = 100;
+                client.Character.Record.Stats.Chance.Additional = 100;
+                client.Character.Record.Stats.Intelligence.Additional = 100;
+                client.Character.Record.Stats.Strength.Additional = 100;
+                client.Character.Record.Stats.Wisdom.Additional = 100;
+                client.Character.Record.Stats.Vitality.Additional = 100;
+                client.Character.RefreshStats();
+                client.Character.Reply("All status have been set to 100 for " + kamasValue + " kamas", true);
+            }
+            else if (removeKamas == false)
+            {
+                client.Character.ReplyError("You need " + kamasValue + " kamas to scroll");
+            } 
+        }
+
+        //Teleports
+
+        [ChatCommand("astrub")]
+        public static void AstrubCommand(string value, WorldClient client)
+        {
+            client.Character.Teleport(84674563, 370);
+        }
+        [ChatCommand("brak")]
+        public static void BrakCommand(string value, WorldClient client)
+        {
+            client.Character.Teleport(144419, 258);
+        }
+        [ChatCommand("bonta")]
+        public static void BontaCommand(string value, WorldClient client)
+        {
+            client.Character.Teleport(147768, 300);
         }
         [ChatCommand("event")]
         public static void Event(string value, WorldClient client)
         {
             client.Character.Teleport(148636161, 398);
         }
+        [ChatCommand("start")]
+        public static void StartCommand(string value, WorldClient client)
+        {
+            client.Character.Teleport(144419, 258);
+        }
+        [ChatCommand("incarnam")]
+        public static void IncarnamCommand(string value, WorldClient client)
+        {
+            client.Character.Teleport(154010883, 383);
+        }
 
+        [ChatCommand("heroic", ServerRoleEnum.Moderator)]
+        public static void HeroicCommand(string value, WorldClient client)
+        {
+            client.Character.DeathCharacter();
+        }
 
     }
 }

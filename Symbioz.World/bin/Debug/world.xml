@@ -1,18 +1,18 @@
 <WorldConfiguration>
   <UseCustomHost>False</UseCustomHost>
   <CustomHost></CustomHost>
-  <ServerId>30</ServerId>
-  <ServerName>Many</ServerName>
+  <ServerId>22</ServerId>
+  <ServerName>Oto mustam</ServerName>
   <ServerType>0</ServerType>
   <SaveInterval>200</SaveInterval> 
   <PerformBackup>False</PerformBackup>
-  <StartMapId>154010883</StartMapId>
-  <StartCellId>383</StartCellId>
+  <StartMapId>144419</StartMapId>
+  <StartCellId>258</StartCellId>
   <StartKamas>0</StartKamas>
   <KamasRate>10</KamasRate>
   <DropsRate>1</DropsRate>
   <CraftRate>10</CraftRate>
-  <StartLevel>1</StartLevel>
+  <StartLevel>15</StartLevel>
   <PlayDefaultCinematic>True</PlayDefaultCinematic>
   <WelcomeMessage>Bienvenu sur Axiom! nous sommes content de vous revoir</WelcomeMessage>
   <MapKey>649ae451ca33ec53bbcbcc33becf15f4</MapKey>
@@ -28,4 +28,5 @@
   <DatabaseUser>root</DatabaseUser>
   <DatabasePassword></DatabasePassword>
   <DatabaseName>symbioz_world</DatabaseName>
+  <Heroic>True</Heroic>
 </WorldConfiguration>

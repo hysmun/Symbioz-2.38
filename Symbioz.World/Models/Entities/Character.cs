@@ -243,6 +243,18 @@ namespace Symbioz.World.Models.Entities
             set;
         }
 
+        public bool Death
+        {
+            get;
+            set;
+        }
+
+        public string LookBackup
+        {
+            get;
+            set;
+        }
+
         public T GetRequestBox<T>() where T : RequestBox
         {
             return (T)RequestBox;
@@ -1232,7 +1244,7 @@ namespace Symbioz.World.Models.Entities
         }
         public void ReplyError(object value)
         {
-            Reply(value, Color.DarkRed, false, false);
+            Reply(value, Color.DarkRed, true, false);
         }
         public void Notification(string message)
         {
@@ -1329,7 +1341,7 @@ namespace Symbioz.World.Models.Entities
         }
         public void MoveOnMap(short[] cells)
         {
-            if (!Busy)
+            if (!Busy && Death == false)
             {
                 ushort clientCellId = (ushort)PathParser.ReadCell(cells.First());
 
@@ -1858,6 +1870,11 @@ namespace Symbioz.World.Models.Entities
                     CurrentMapMessage(Record.MapId);
             }
 
+            if (winner == false)
+            {
+                this.DeathCharacter();
+            }
+
         }
         public void OnDisconnected()
         {
@@ -1883,6 +1900,12 @@ namespace Symbioz.World.Models.Entities
             Look.RemoveAura();
             if (Map != null)
                 Map.Instance.RemoveEntity(this);
+
+            if (Death == true)
+            {
+                Death = false;
+                this.Client.Character.Look = ContextActorLook.Parse(this.LookBackup);
+            }
 
             Record.UpdateElement();
 
@@ -1921,7 +1944,37 @@ namespace Symbioz.World.Models.Entities
         {
             OpenPopup(0, "Félicitation", "Votre Pokéfus " + minationEffect.MonsterName + " vient de passer niveau " + newLevel + "!");
         }
+        public void DeathCharacter()
+        {
+            if (WorldConfiguration.Instance.Heroic == true)
+            {
+                if (this.Level >= 100 && this.Level <= 200)
+                {
+                    this.Record.Stats.ActionPoints.Base -= 1;
+                }
+                this.SetLevel(WorldConfiguration.Instance.StartLevel);
 
-    }
+                this.OpenPopup(0, "Death", "Heroic mode enabled, you dead");
 
+                string backuplook = ContextActorLook.ConvertToString(this.Look);
+                this.LookBackup = backuplook;
+                string value = "{" + 25 + "}";
+                value = value.Replace("&#123;", "{").Replace("&#125;", "}");
+                this.Look = ContextActorLook.Parse(value);
+
+                this.Death = true;
+                this.RemoveEmote(22);
+                this.Restat(false);
+                this.RefreshActor();
+                this.RefreshActorOnMap();
+                this.RefreshStats();
+                this.RefreshEmotes();
+
+            }
+            else
+            {
+                //this.OpenPopup(0, "Death", "Heroic mode disabled");
+            }
+        }
+    }  
 }

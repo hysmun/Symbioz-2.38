@@ -65,3 +65,4 @@ C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Core\obj\Debug\Symb
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Core\obj\Debug\Symbioz.Core.csproj.CopyComplete
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Core\obj\Debug\Symbioz.Core.dll
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Core\obj\Debug\Symbioz.Core.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Core\obj\Debug\Symbioz.Core.pdb

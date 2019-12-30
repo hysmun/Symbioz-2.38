@@ -157,19 +157,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>s+cB/CcDd9dyrF99UDgzP0RrAiYcYHHR2hRTSlVE7pA=</dsig:DigestValue>
+        <dsig:DigestValue>cIKJ+i2gOrZ2TJ+UCPNVV5F3IKvdI+BzWXosMdyfyZk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Symbioz.Core.dll" size="65024">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Symbioz.Core.dll" size="65536">
       <assemblyIdentity name="Symbioz.Core" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3YED6v/o5zhJVnzddy4Qpoee11+mGkGCDIPV6b93y18=</dsig:DigestValue>
+        <dsig:DigestValue>d/WJZkVxerundqSnuqiJWIAhDyiPorVTzX8p3E7+KIY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -181,7 +181,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>QcrImEj0b2t3e+iISGn52FwlE9NGC40boZTZmVm5RIU=</dsig:DigestValue>
+        <dsig:DigestValue>K9I2te8K0glVU4Qn2unRyeMc41nBh2EqyNugUv5Ffn0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -193,7 +193,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DCq0SLf4UeaWmiJR758tmbPxsVUlXyRdHIpagID9/Jk=</dsig:DigestValue>
+        <dsig:DigestValue>2JUVpSjDo0wak7vnVGL/pqaLgS/6WAxwOhVWNiTomkE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -205,19 +205,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GFM1toJFT4GD5C2xQoCKtoS2lpH0TbLadydKAVlTUoE=</dsig:DigestValue>
+        <dsig:DigestValue>xOvA1zLFbBw99/ZHB2c1JX4x25KKqMfmcSJPCp4HZ6w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Symbioz.World.exe" size="796672">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Symbioz.World.exe" size="798720">
       <assemblyIdentity name="Symbioz.World" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>EpaH8fVgVeo4gOfU/ciYKegEXK3pcVdi5ZH966urx/4=</dsig:DigestValue>
+        <dsig:DigestValue>Rk9/d1mNwhywulNTVrJPEBfte16w5eSk1r45rq3lLig=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -241,7 +241,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>XdGTiILcWZaj84lfd2Nlaly/HJy0GZVm806aPEe+FI0=</dsig:DigestValue>
+        <dsig:DigestValue>Xne/MTZBQ0q7UUNJ6tQJhJWSoI84UjaPCl7uT9kR6S8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
