@@ -70,15 +70,4 @@ C:\Users\Skinz\Desktop\Symbioz 2.38\SSync\obj\Debug\SSync.csprojResolveAssemblyR
 C:\Users\Skinz\Desktop\Symbioz 2.38\SSync\obj\Debug\SSync.dll
 C:\Users\Skinz\Desktop\Symbioz 2.38\SSync\obj\Debug\SSync.pdb
 C:\Users\Skinz\Desktop\Symbioz 2.38\SSync\obj\Debug\SSync.csproj.CoreCompileInputs.cache
-C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\SSync\bin\Debug\SSync.dll
-C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\SSync\bin\Debug\SSync.pdb
-C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\SSync\bin\Debug\Symbioz.Core.dll
-C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\SSync\bin\Debug\YAXLib.dll
-C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\SSync\bin\Debug\Symbioz.Core.pdb
-C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\SSync\bin\Debug\YAXLib.pdb
-C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\SSync\bin\Debug\YAXLib.xml
-C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\SSync\obj\Debug\SSync.csprojAssemblyReference.cache
-C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\SSync\obj\Debug\SSync.csproj.CopyComplete
-C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\SSync\obj\Debug\SSync.dll
-C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\SSync\obj\Debug\SSync.pdb
 C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\SSync\obj\Debug\SSync.pdb
