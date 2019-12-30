@@ -57,6 +57,7 @@
     <Compile Include="Messages\MessagePart.cs" />
     <Compile Include="Messages\TransitionMessage.cs" />
     <Compile Include="Sockets\Client.cs" />
+    <Compile Include="Sockets\OldClient.cs" />
     <Compile Include="Transition\MessagePool.cs" />
     <Compile Include="Sockets\ArrayBuffer.cs" />
     <Compile Include="Sockets\BufferManager.cs" />
