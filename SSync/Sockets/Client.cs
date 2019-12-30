@@ -30,7 +30,7 @@ namespace SSync.Sockets
 
         private uint _bytesSent;
 
-        private int sizeBuffer = 8192;
+        public int sizeBuffer = 8192;
 
         private static long _totalBytesReceived;
 
@@ -52,13 +52,14 @@ namespace SSync.Sockets
 
         public override void OnClosed()
         {
-            // throw new NotImplementedException();
+            throw new NotImplementedException();
         }
 
         public override void OnConnected()
         {
             Receive();
             Thread.Sleep(100);
+            OnConnected();
         }
         public void Connect(IPAddress addr, int port)
         {
@@ -82,8 +83,22 @@ namespace SSync.Sockets
                 OnConnected();
             }
         }
+        //public IPEndPoint EndPoint
+        //{
+        //    get
+        //    {
+        //        return Socket.RemoteEndPoint as IPEndPoint;
+        //    }
+        //}
 
+        //public override string Ip
+        //{
+        //    get
+        //    {
+        //        return EndPoint.Address + ":" + EndPoint.Port;
 
+        //    }
+        //}
 
         public override void OnDataArrival(byte[] buffer)
         {
@@ -92,7 +107,7 @@ namespace SSync.Sockets
 
         public override void OnFailToConnect(Exception ex)
         {
-
+            throw new NotImplementedException();
         }
         private void ReceiveAsyncComplete(object sender, SocketAsyncEventArgs args)
         {
