@@ -101,3 +101,14 @@ C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ORM\obj\Debug\Symbioz.ORM.csprojReso
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ORM\obj\Debug\Symbioz.ORM.dll
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ORM\obj\Debug\Symbioz.ORM.pdb
 C:\Users\Skinz\Desktop\Symbioz 2.38\Symbioz.ORM\obj\Debug\Symbioz.ORM.csproj.CoreCompileInputs.cache
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.ORM\bin\Debug\Symbioz.ORM.dll
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.ORM\bin\Debug\Symbioz.ORM.pdb
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.ORM\bin\Debug\Symbioz.Core.dll
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.ORM\bin\Debug\YAXLib.dll
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.ORM\bin\Debug\Symbioz.Core.pdb
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.ORM\bin\Debug\YAXLib.pdb
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.ORM\bin\Debug\YAXLib.xml
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.ORM\obj\Debug\Symbioz.ORM.csprojAssemblyReference.cache
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.ORM\obj\Debug\Symbioz.ORM.csproj.CopyComplete
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.ORM\obj\Debug\Symbioz.ORM.dll
+C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.ORM\obj\Debug\Symbioz.ORM.pdb
