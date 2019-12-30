@@ -37,3 +37,4 @@ C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\D2P\obj\Debug\D2P.csproj.Ge
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\D2P\obj\Debug\D2P.csproj.CopyComplete
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\D2P\obj\Debug\D2P.exe
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\D2P\obj\Debug\D2P.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\D2P\obj\Debug\D2P.pdb

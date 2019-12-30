@@ -98,3 +98,4 @@ C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\obj\Debug\
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.csproj.CopyComplete
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.dll
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Protocol\obj\Debug\Symbioz.Protocol.pdb

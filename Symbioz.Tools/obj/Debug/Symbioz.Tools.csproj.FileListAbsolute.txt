@@ -94,3 +94,4 @@ C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Tools\obj\Debug\Sym
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Tools\obj\Debug\Symbioz.Tools.csproj.CopyComplete
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Tools\obj\Debug\Symbioz.Tools.dll
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.Tools\obj\Debug\Symbioz.Tools.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.Tools\obj\Debug\Symbioz.Tools.pdb

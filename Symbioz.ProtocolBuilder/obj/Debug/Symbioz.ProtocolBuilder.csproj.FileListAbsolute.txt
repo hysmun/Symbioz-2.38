@@ -67,3 +67,4 @@ C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.ProtocolBuilder\obj
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.csproj.CopyComplete
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.exe
 C:\Users\antoine.brajkovic\source\repos\Symbioz-2.38\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.pdb
+C:\Users\Joao\Source\Repos\Symbioz-2.38-RED\Symbioz.ProtocolBuilder\obj\Debug\Symbioz.ProtocolBuilder.pdb
