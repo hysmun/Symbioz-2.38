@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbioz.Core", "Symbioz.Core\Symbioz.Core.csproj", "{06CDF5D1-D0EF-40CC-BDEF-DE9A5FEBAF6B}"
 EndProject
@@ -39,6 +39,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbioz.DofusMusic", "Symbioz.DofusMusic\Symbioz.DofusMusic.csproj", "{E3880B45-1BA0-4E16-9C13-824CF1651ABE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbioz.UIModules", "Symbioz.UIModules\Symbioz.UIModules.csproj", "{474812DC-E74B-40AA-8012-99C4F92BFA0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Script", "Script", "{23F9B9D5-7314-423F-9816-923D799A6974}"
+	ProjectSection(SolutionItems) = preProject
+		Script\LaunchAuth.bat = Script\LaunchAuth.bat
+		Script\LaunchAuthAndWorld.bat = Script\LaunchAuthAndWorld.bat
+		Script\LaunchWorld.bat = Script\LaunchWorld.bat
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,5 +116,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F202D090-29E9-46A6-9FFF-B428B541F7BB}
 	EndGlobalSection
 EndGlobal
