@@ -333,3 +333,5 @@ Database/*.sql
 /Database/*.sql
 /Symbioz.Auth/bin/*
 /Symbioz.World/bin/*
+/Symbioz.Auth/bin/Debug/auth.xml
+/Symbioz.World/bin/Debug/world.xml
