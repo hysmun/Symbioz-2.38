@@ -322,7 +322,7 @@ namespace Symbioz.World.Models.Entities.Stats
 
         public Characteristic PMAttack { get; set; }
 
-        public ushort WeightBonus { get; set; }
+        public uint WeightBonus { get; set; }
 
         public int Power
         {

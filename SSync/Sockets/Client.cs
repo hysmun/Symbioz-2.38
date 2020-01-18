@@ -7,6 +7,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Symbioz.Core;
 
 namespace SSync.Sockets
 {
@@ -52,14 +53,14 @@ namespace SSync.Sockets
 
         public override void OnClosed()
         {
-            throw new NotImplementedException();
+
         }
 
         public override void OnConnected()
         {
             Receive();
             Thread.Sleep(100);
-            OnConnected();
+            //OnConnected();
         }
         public void Connect(IPAddress addr, int port)
         {
@@ -147,7 +148,7 @@ namespace SSync.Sockets
         public void Receive()
         {
 
-            if (Socket != null || Socket.Connected)
+            if (Socket != null && Socket.Connected)
             {
 
                 var args = SocketHelpers.AcquireSocketArg();
@@ -204,14 +205,14 @@ namespace SSync.Sockets
             {
                 throw ex;
             }
-            catch (ObjectDisposedException)
+            catch (ObjectDisposedException ex)
             {
-
+                Logger.Write($"{ex.Message} - {ex.GetType()}", ConsoleColor.Red);
                 OnClosed();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
+                Logger.Write($"{ex.Message} - {ex.GetType()}", ConsoleColor.Red);
                 OnClosed();
             }
             finally

@@ -66,6 +66,128 @@ namespace Symbioz.World.Handlers.RolePlay.Commands
 
 
         }
+
+        [ChatCommand("spellup")]
+        public static void Spellup(string input, WorldClient client)
+        {
+            foreach (var spell in client.Character.Record.Spells)
+            {
+                spell.SetGrade(6);
+            }
+            client.Character.Record.UpdateInstantElement();
+            client.Character.RefreshSpells();
+        }
+
+        [ChatCommand("dofus")]
+        public static void dofus(string input, WorldClient client)
+        {
+            ItemRecord[] items = ItemRecord.GetItems(ItemTypeEnum.DOFUS);
+            foreach (ItemRecord itemRecord in items)
+            {
+                client.Character.Inventory.AddItem(itemRecord.Id, 1, true);
+            }
+        }
+
+        [ChatCommand("boost")]
+        public static void Boost(string input, WorldClient client)
+        {
+            Stats s = client.Character.Record.Stats;
+            s.Vitality.Base = 2500;
+
+            s.ActionPoints.Base = 10;
+            s.MovementPoints.Base = 5;
+
+            s.Range.Base = 3;
+            s.SummonableCreaturesBoost.Base = 5;
+
+            s.Agility.Base = 300;
+            s.Wisdom.Base = 300;
+            s.Intelligence.Base = 300;
+            s.Chance.Base = 300;
+            s.Strength.Base = 300;
+
+            s.AirDamageBonus.Base = 100;
+            s.FireDamageBonus.Base = 100;
+            s.EarthDamageBonus.Base = 100;
+            s.WaterDamageBonus.Base = 100;
+            s.CriticalDamageBonus.Base = 100;
+
+            s.DodgePAProbability.Base = 100;
+            s.DodgePMProbability.Base = 100;
+
+            client.Character.Record.UpdateInstantElement();
+            client.Character.RefreshStats();
+        }
+
+
+        [ChatCommand("give")]
+        public static void GiveItem(string input, WorldClient client)
+        {
+            string[] split = input.Split(' ');
+            if (split.Length >= 1)
+            {
+                string name = split[0];
+                int level = 190;
+
+                if (split.Length > 1)
+                {
+                    level = int.Parse(split[1]);
+                }
+
+                foreach (ItemRecord itemRecord in ItemRecord.Items)
+                {
+                    if (level < itemRecord.Level || itemRecord.TypeEnum == ItemTypeEnum.DOFUS)
+                    {
+                        bool add = false;
+                        if (itemRecord.Weapon)
+                        {
+                            add = true;
+                        }
+
+                        if (itemRecord.TypeEnum == ItemTypeEnum.AMULETTE)
+                        {
+                            add = true;
+                        }
+                        if (itemRecord.TypeEnum == ItemTypeEnum.DOFUS)
+                        {
+                            add = true;
+                        }
+                        if (itemRecord.TypeEnum == ItemTypeEnum.ANNEAU)
+                        {
+                            add = true;
+                        }
+                        if (itemRecord.TypeEnum == ItemTypeEnum.CAPE)
+                        {
+                            add = true;
+                        }
+                        if (itemRecord.TypeEnum == ItemTypeEnum.BOTTES)
+                        {
+                            add = true;
+                        }
+                        if (itemRecord.TypeEnum == ItemTypeEnum.CEINTURE)
+                        {
+                            add = true;
+                        }
+                        if (itemRecord.TypeEnum == ItemTypeEnum.CHAPEAU)
+                        {
+                            add = true;
+                        }
+                        if (itemRecord.TypeEnum == ItemTypeEnum.CEINTURE)
+                        {
+                            add = true;
+                        }
+
+
+
+                        if (add)
+                        {
+                            client.Character.Inventory.AddItem(itemRecord.Id, 1, true);
+                        }
+                    }
+                }
+            }
+        }
+
         [ChatCommand("itemlist", ServerRoleEnum.Administrator)]
         public static void ItemListCommand(string value, WorldClient client)
         {

@@ -331,3 +331,5 @@ ASALocalRun/
 Database/*.sql
 /Database/*/*.sql
 /Database/*.sql
+/Symbioz.Auth/bin/*
+/Symbioz.World/bin/*

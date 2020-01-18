@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Threading;
 using Symbioz.Auth.Records;
 using Symbioz.Network.Servers;
+using Symbioz.Protocol.Selfmade.Enums;
 
 namespace Symbioz.Auth
 {
@@ -28,6 +29,28 @@ namespace Symbioz.Auth
         {
             BanIpRecord record = new BanIpRecord(input);
             record.AddInstantElement();
+        }
+
+        [ConsoleCommand("create")]
+        public static void CreateUser(string input)
+        {
+            string[] split = input.Split(' ');
+            if (split.Length != 0)
+            {
+                AccountRecord account = null;
+
+                if (split.Length == 2)
+                {
+                    account = new AccountRecord(split[0], split[1]);
+                    account.Id = 6;
+                    account.Banned = false;
+                    account.CharacterSlots = 5;
+                    account.Nickname = split[0];
+                    account.Role = (sbyte) ServerRoleEnum.Player;
+                }
+
+                account?.AddInstantElement();
+            }
         }
     }
 }
